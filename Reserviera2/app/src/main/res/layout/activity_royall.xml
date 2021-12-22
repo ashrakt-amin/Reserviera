@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkyHall"
+    >
+
+
+    <ViewFlipper
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/viewlippercrystal"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/troy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewlippercrystal"
+        android:layout_margin="10dp"
+        android:text ="The hall is elegant ,organized ,wide area ,air conditioned and has an emergency exit"
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="italic"
+        tools:ignore="InvalidId" />
+
+
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expand2"
+        android:layout_below="@+id/troy"
+        android:indicatorLeft="?android:attr/expandableListPreferredChildIndicatorLeft"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expand2"
+        android:layout_margin="10dp"
+        android:id="@+id/buttontobook"
+        android:text="Book"
+        android:textStyle="italic"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

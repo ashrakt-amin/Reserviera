@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact"
+    android:background="@drawable/banner">
+
+
+    <TextView
+        android:layout_width="230sp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="20dp"
+        android:id="@+id/t1"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="italic"
+     android:text="The website offers many wedding halls with the best prices,Initially, you can reserve your hall wedding through the website but after one week if you don't go to the reservation office and pay the retainer, your reservation will have been cancelled."/>
+
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="Phone number:  01094525446"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:id="@+id/imagemail"
+        android:layout_below="@+id/t4"
+        android:layout_toLeftOf="@+id/phone"
+        android:src="@drawable/photttttttttttt"
+      />
+
+
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:text="You can also visit us on our office and know more about our offers and special discounts."
+        android:id="@+id/t2"
+        tools:ignore="InvalidId"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:text="Address is : 203 Al-geesh St., Mansoura, EGY"
+        android:id="@+id/t3"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_margin="20dp"
+        tools:ignore="InvalidId" />
+
+
+
+</RelativeLayout>
